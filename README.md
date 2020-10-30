@@ -4,6 +4,10 @@
 [image2]: ./images/vgg16_model.png "VGG-16 Model Keras Layers"
 [image3]: ./images/vgg16_model_draw.png "VGG16 Model Figure"
 
+## Udacity Data Science Nanodegree - Capstone Submission
+
+This is my submission for the Udacity Data Science Nanodegree capstone project, where I chose to focus on a fun computer vision task that is about producing a classifier that can detect what breed of dog is present in an image, if there is a dog present. A writeup about the project can be found on medium: https://jiekebo.medium.com/train-your-own-dog-classifier-aa5cf9dbf384
+
 
 ## Project Overview
 
