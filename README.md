@@ -6,8 +6,19 @@
 
 ## Udacity Data Science Nanodegree - Capstone Submission
 
-This is my submission for the Udacity Data Science Nanodegree capstone project, where I chose to focus on a fun computer vision task that is about producing a classifier that can detect what breed of dog is present in an image, if there is a dog present. A writeup about the project can be found on medium: https://jiekebo.medium.com/train-your-own-dog-classifier-aa5cf9dbf384
+This is my submission for the Udacity Data Science Nanodegree capstone project, where I chose to focus on a fun computer vision task that is about producing a classifier that can detect what breed of dog is present in an image, if there is a dog present. A writeup about the project can be found on medium: https://jiekebo.medium.com/train-your-own-dog-classifier-aa5cf9dbf384.
 
+## Libraries Used
+Mainly Keras was used but OpenCV was also in use for part of the project.
+
+## Project Files
+Work was conducted in the ```dog_app.ipynb``` notebook. In the images folder there are some images used for the project as well. The ```extract_bottleneck_features.py``` contains shortcuts for importing bottleneck features from Keras. The requirements folder contains various ways to install the needed libraries for the project, read more below. 
+
+## Analysis Summary
+The project focused on creating a classifier that could detect either humans or dogs in images and in either case what race of dog the image would be classified as. Analysis was conducted on how to best approac the problem, by either training a neural network from scratch or by using transfer learning. By far, the best results were attained by using transfer learning, and apparently it is quite difficult to get a reasonable level of accuracy by simply training a neural network from scratch. 
+
+## Conclusion
+It is reasonable to say that training a neural network from scratch is quite hard, both from a time and resource perspective. It is also safe to say that given a small dataset, it is difficult to make any steps toward a neural network that can actually make any sense of the data. Therefore a reasonable approach is to use transfer learning wherever applicable, and whenever the data in the given task is reasonably similar to that which the pre-trained model is based on.
 
 ## Project Overview
 
